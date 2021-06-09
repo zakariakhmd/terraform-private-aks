@@ -5,6 +5,10 @@ This quickstart provide terraform code to provision private cluster on AKS. It w
 3. A jumpbox VM in the same Vnet to try accessing the cluster
 4. IAM
 
+The following architecture diagram illustrates the components that make up this quickstart: 
+
+![Architecture Diagram](./img/aks-diagram.JPG)
+
 ## Prerequisites for running the quickstart
 Make sure to use Terraform 13 and clone the quickstarts repository
    ```
