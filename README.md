@@ -2,12 +2,13 @@
 This quickstart provide terraform code to provision private cluster on AKS. It will provision Azure resources as below:
 1. Networking layer such as Vnet, Subnet, Public and Private IP, NSG, etc
 2. AKS Private Cluster integrated with previosly created Vnet
-3. A jumpbox VM in the same Vnet to try accessing the cluster
-4. IAM
+3. Azure Private Link and Private DNS for communication with AKS
+4. A jumpbox VM in the same Vnet to try accessing the cluster
+5. IAM
 
 The following architecture diagram illustrates the components that make up this quickstart: 
 
-![Architecture Diagram](./img/aks-diagram.JPG)
+![Architecture Diagram](./img/aksdiagram.png)
 
 ## Prerequisites for running the quickstart
 Make sure to use Terraform 13 and clone the quickstarts repository
