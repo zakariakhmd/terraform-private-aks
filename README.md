@@ -18,7 +18,7 @@ Make sure to use Terraform 13 and clone the quickstarts repository
 
 ## Running the quickstart locally
 
-Make sure you have the right access of Azre subscription on your local machine and start the provisioning of AKS and jumpbox VM as below
+Make sure you have the right access of Azure subscription on your local machine and start the provisioning of AKS and jumpbox VM as below
    ```
    terraform init
    ```
@@ -33,5 +33,8 @@ Optional: Before resource provisioning, you might need to run terraform code val
    ```
    terraform plan
    ```
+
+# Refference
+To get insight of what is private cluster, you can refer this [youtube video](https://youtu.be/YsyJul9yUKA).
 
 Explanation in details in this [medium article](https://medium.com/@paveltuzov/create-a-fully-private-aks-infrastructure-with-terraform-e92358f0bf65?source=friends_link&sk=124faab1bb557c25c0ed536ae09af0a3).
