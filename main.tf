@@ -45,7 +45,7 @@ resource "azurerm_kubernetes_cluster" "privateaks" {
   kubernetes_version      = data.azurerm_kubernetes_service_versions.current.latest_version
   resource_group_name     = azurerm_resource_group.vnet.name
   dns_prefix              = "privateaks"
-  private_cluster_enabled = true
+  private_cluster_enabled = false
 
   default_node_pool {
     name           = "default"
